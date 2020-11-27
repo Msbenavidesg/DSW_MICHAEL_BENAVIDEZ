@@ -13,34 +13,42 @@ body {
     
 
 }
+ul,ol{
+    list-style: none;
+}
 
 .menu ul{
-    padding:15px;
+    padding: 20px;
     background-color: #db7515;
     text-decoration: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     box-shadow: 2px 2px 5px #000000;
     margin:auto;
-    
 }
-
-.menu ul a{
+.menu ul a {
     color:#000000;
     text-decoration: none;
-    font:bold 25px verdana;
-    padding:15px 20px 15px 20px;
-
+    font: bold 25px arial;
+    padding: 15px 20px 15px 20px;
 
 }
-
+    
 .menu ul a:hover {
-    background: #914d0f;
-    color:#000000;
-    
-
-    
+   background: #724011;
+   color: #000000;
 }
+.menu li ul{
+    display:none;
+    position: absolute;
+    min-width: 150px;
+}
+.menu li:hover  >ul{
+    display: flex;
+
+}
+
+
 .colums{
     text-indent: 40px;
     font-size: 20px;
