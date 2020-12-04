@@ -64,7 +64,7 @@ ul,ol{
 }
 
 .body-container {
-    font:arial;
+    
     display: flex;
     margin-bottom: 5px;
     margin-left:5px;
@@ -93,7 +93,7 @@ footer {
     
     padding: 1.5em;
     background:  #57DBFF;
-    font:arial bold;
+    
 }
 
 .footer-text {
@@ -102,7 +102,7 @@ footer {
     flex-direction: column;
     align-items: flex-end;
     margin-left: 1400px;
-    font:arial bold;
+    
 }
 
 .img-autor {
