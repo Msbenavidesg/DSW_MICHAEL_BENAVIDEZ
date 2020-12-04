@@ -10,7 +10,8 @@ body {
 }
 .html5 {
     border-radius: 5px;
-    
+    display: block;
+    margin: auto;
 
 }
 ul,ol{
@@ -63,7 +64,7 @@ ul,ol{
 }
 
 .body-container {
-    font:verdana;
+    font:arial;
     display: flex;
     margin-bottom: 5px;
     margin-left:5px;
@@ -92,7 +93,7 @@ footer {
     
     padding: 1.5em;
     background:  #57DBFF;
-    font:verdana bold;
+    font:arial bold;
 }
 
 .footer-text {
@@ -101,9 +102,12 @@ footer {
     flex-direction: column;
     align-items: flex-end;
     margin-left: 1400px;
-    font:verdana bold;
+    font:arial bold;
 }
 
 .img-autor {
     width: 240px;
+}
+.titulo{
+    text-align: center;
 }
